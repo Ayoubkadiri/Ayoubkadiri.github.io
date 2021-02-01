@@ -33,7 +33,7 @@ header {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -51,8 +51,9 @@ header a:hover {
 
 footer {
     background-color: #111111;
-    padding: 30px 100px 50px 125px;
+    padding: 30px 0 100px 120px;
     position: relative;
+
     text-align: start;
     margin: auto;
 }
@@ -61,6 +62,7 @@ footer {
     min-width: 325px;
     display: inline-block;
     vertical-align: top;
+
 }
 
 footer h4 {
