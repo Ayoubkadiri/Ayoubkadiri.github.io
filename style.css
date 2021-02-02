@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+
 body {
     color: #555;
     margin: 0 auto;
@@ -21,15 +22,17 @@ header {
     font-weight: bold;
 }
 
-#header-nav {
+nav ul {
     display: block;
     float: right;
     margin-top: 0;
 }
 
-#header-nav li {
-    display: inline;
-    padding-left: 20px;
+nav li {
+    display: inline-block;
+    font-size: medium;
+    padding-left: 14px;
+    font-family: 'Londrina Solid', cursive;
 }
 
 .container {
@@ -46,6 +49,10 @@ header a {
 }
 
 header a:hover {
+    color: #222;
+}
+
+.active {
     color: #222;
 }
 
