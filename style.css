@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap);
-
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
 
 body {
     color: #0a0a0f;
@@ -110,6 +110,13 @@ a:hover {
 .post-author span {
     margin-left: 16px;
     font-weight: 510;
+}
+
+.author {
+    color: rgb(27, 26, 26);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3em;
+    color:#0099ff;
 }
 
 .post-date {
